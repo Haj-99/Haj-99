@@ -1,0 +1,216 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Hajra Rasul Jalil} \\ \vspace{1pt}
+    \small +92332-8278200 $|$ \href{mailto:x@x.com}{\underline{hijratjalil@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/hajrarjalil/}{\underline{linkedin.com/in/hajrarjalil}} $|$
+    \href{https://github.com/...}{\underline{}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Riphah International University}{Islamabad, Pakistan}
+      {Bachelors in Psychology}{Oct. 2021 -- Present} 
+   \resumeSubheading 
+      {National University of Modern Languages}{Islamabad, Pakistan} 
+      {Summer Course in Japanese Language}{July. 2023 -- Aug. 2023} 
+    \resumeSubheading 
+      {Punjab Group of Colleges}{Faisalabad, Pakistan} 
+      {FSc in Pre-Medical}{Sept. 2017 -- Aug. 2019} 
+    \resumeSubheading 
+      {Lahore Grammar School}{Faisalabad, Pakistan} 
+      {O-Levels in Pre-Medical}{Sept. 2004 -- Aug.2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Internee Psychologist}{July. 2024 -- Aug.2024}
+      {Mayo Hospital}{Lahore, Pakistan}
+      \resumeItemListStart
+        \resumeItem{FIRST}
+        \resumeItem{SECOND}
+        \resumeItem{THIRD}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Advisor}{March 2023 -- Present}
+      {Rakhshanda Memorial}{Islamabad, Pakistan} 
+      \resumeItemListStart
+        \resumeItem{Helped in shaping the NGO’s vision, and direction by providing insights on long-term goals and assisting in the development of strategic plans.}
+        \resumeItem{Offered expertise in relevant areas such as human resources, event management, and communications}
+        \resumeItem{Participated in board meetings, contribute to administrative decisions, ensure adherence to ethical standards, and monitor the organisation’s performance against its goals.}
+        \resumeItem{• Provided technical assistance and guidance on project design, implementation, and evaluation, offer feedback on proposals and reports.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------CERTIFICATIONS----------- 
+\section{Certifications} 
+\resumeSubHeadingListStart 
+
+    \resumeSubheading 
+      {Introduction to Data Analytics}{Credential ID: V7XTKF69L2CJ} 
+      {IBM}{May 2024} 
+    \resumeSubheading 
+      {Abnormal Psychology Specialization}{Credential ID: SW9QX93JQW6G}
+      {Wesleyan University}{October 2023} 
+    \resumeSubheading
+      {Statistics in Psychological Research}{Credential ID: 4C2LXPZ7H9F4}
+      {American Psychological Association}{October 2023}
+    \resumeSubheading
+      {Introduction to Psychology}{Credential ID: AUJ3JZYLRHCZ}
+      {Yale University}{March 2023}
+    \resumeSubheading 
+      {Psychological First Aid}{Credential ID: RT28RN7GWNEB}
+      {The Johns Hopkins University}{March 2023}
+    \resumeSubheading 
+      {Introduction to Human Behavioral Genetics}{Credential ID: 6DHQQCKPNEYW}
+      {University of Minnesota}{December 2022} 
+    \resumeSubHeadingListEnd 
+
+
+
+% 
+%-----------SKILLS----------- 
+
+\section{Technical Skills} 
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Research}{: Data Collection, Quantitative Research, Literature Review} \\
+     \textbf{Analysis}{: Scientific Writing, Data Analysis, Statistical Analysis} \\
+     \textbf{Tools}{: SPSS, MS Word, MS Excel} \\
+    }} 
+
+\end{itemize} 
+
+%------------------------------------------- 
+\end{document} 
